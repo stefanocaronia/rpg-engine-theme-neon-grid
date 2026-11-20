@@ -9,6 +9,10 @@ A theme for the dashboard of [rpg-engine](https://github.com/stefanocaronia/rpg-
 | Accent | `#0a6580` deep cyan | `#35e3ff` cyan |
 | Strong | `#a8126a` magenta | `#ff3fa4` neon magenta |
 
+## Its shapes
+
+Panels with cut corners and a dot grid under their words, buttons and tabs cut the same, the tab chosen on a tint of cyan; a glow instead of shadows, violet by day and cyan by night; portraits cut to octagons in a thin cyan frame; a striped sun over a grid in perspective at the head of the page, beside the campaign's name; cool white paper for the documents and the maps. All of it from `theme.yaml`, no style sheet of its own. Needs rpg-engine 0.22 or later.
+
 ## Install
 
 - In the dashboard: **Packages › Add**, paste `https://github.com/stefanocaronia/rpg-engine-theme-neon-grid`, or find it in the catalog under Themes.

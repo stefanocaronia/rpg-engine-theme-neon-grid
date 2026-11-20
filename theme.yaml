@@ -1,6 +1,6 @@
 # Neon Grid, a theme of the rpg-engine dashboard: cyan and magenta light on a midnight grid, a pale terminal by day, wide geometric titles.
 name: Neon Grid
-version: 1.0.0
+version: 1.1.0
 fonts:
   - {family: Orbitron, file: fonts/orbitron/Orbitron.ttf, weight: 400 900, license: fonts/orbitron/OFL.txt}
   - {family: Exo 2, file: fonts/exo-2/Exo2.ttf, weight: 100 900, license: fonts/exo-2/OFL.txt}
@@ -8,9 +8,14 @@ text-font: Exo 2
 title-font: Orbitron
 story-font: Exo 2
 number-font: title
-corners: 1
+corners: 10
 titles: {case: capitals, spacing: 0.04}
-cards: {inner-line: none, ornament: images/bracket.svg}
+cards: {inner-line: none, ornament: images/bracket.svg, corner: cut, texture: {picture: images/grain.svg}}
+buttons: {shape: cut}
+tabs: {shape: cut}
+shadows: glow
+papers: {documents: "#eef1f7", maps: "#e8edf3"}
+portraits: {shape: cut, frame: thin}
 light:
   paper: "#eef0fa"
   panel: "#fbfbff"
@@ -25,6 +30,10 @@ light:
   card-edge: "#b4bbe6"
   bar-edge: "#a8126a"
   page-texture: {picture: images/grid-light.svg, fit: tile}
+  head-picture: {picture: images/horizon-light.svg, fit: cover}
+  card-grain: "#b7bde6"
+  shadow: "#6b5fd8"
+  portrait-frame: "#0a6580"
 dark:
   paper: "#07061a"
   panel: "#110d2a"
@@ -40,4 +49,8 @@ dark:
   title-glow: "#35e3ff"
   bar-edge: "#ff3fa4"
   page-texture: {picture: images/grid-dark.svg, fit: tile}
+  head-picture: {picture: images/horizon-dark.svg, fit: cover}
+  card-grain: "#4b3fa0"
+  shadow: "#35e3ff"
+  portrait-frame: "#35e3ff"
   bar-texture: {picture: images/scanlines.svg, fit: tile}
