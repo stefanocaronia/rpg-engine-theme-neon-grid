@@ -1,0 +1,43 @@
+# Neon Grid, a theme of the rpg-engine dashboard: cyan and magenta light on a midnight grid, a pale terminal by day, wide geometric titles.
+name: Neon Grid
+version: 1.0.0
+fonts:
+  - {family: Orbitron, file: fonts/orbitron/Orbitron.ttf, weight: 400 900, license: fonts/orbitron/OFL.txt}
+  - {family: Exo 2, file: fonts/exo-2/Exo2.ttf, weight: 100 900, license: fonts/exo-2/OFL.txt}
+text-font: Exo 2
+title-font: Orbitron
+story-font: Exo 2
+number-font: title
+corners: 1
+titles: {case: capitals, spacing: 0.04}
+cards: {inner-line: none, ornament: images/bracket.svg}
+light:
+  paper: "#eef0fa"
+  panel: "#fbfbff"
+  rule: "#cfd3ec"
+  ink: "#12102b"
+  muted: "#4f5275"
+  accent: "#0a6580"
+  gold: "#a8126a"
+  on-gold: "#ffffff"
+  ally: "#17784a"
+  low: "#c2361c"
+  card-edge: "#b4bbe6"
+  bar-edge: "#a8126a"
+  page-texture: {picture: images/grid-light.svg, fit: tile}
+dark:
+  paper: "#07061a"
+  panel: "#110d2a"
+  rule: "#2c2456"
+  ink: "#eaf2ff"
+  muted: "#a9b2d6"
+  accent: "#35e3ff"
+  gold: "#ff3fa4"
+  on-gold: "#0a0618"
+  ally: "#5cf2a0"
+  low: "#ff7a4d"
+  card-edge: "#3a2f78"
+  title-glow: "#35e3ff"
+  bar-edge: "#ff3fa4"
+  page-texture: {picture: images/grid-dark.svg, fit: tile}
+  bar-texture: {picture: images/scanlines.svg, fit: tile}
