@@ -1,6 +1,6 @@
 # Neon Grid, a theme of the rpg-engine dashboard: cyan and magenta light on a midnight grid, a pale terminal by day, wide geometric titles.
 name: Neon Grid
-version: 1.1.0
+version: 1.1.1
 engine: "0.22"
 fonts:
   - {family: Orbitron, file: fonts/orbitron/Orbitron.ttf, weight: 400 900, license: fonts/orbitron/OFL.txt}
@@ -26,8 +26,8 @@ light:
   accent: "#0a6580"
   gold: "#a8126a"
   on-gold: "#ffffff"
-  ally: "#17784a"
-  low: "#c2361c"
+  ally: "#156e44"
+  low: "#b13119"
   card-edge: "#b4bbe6"
   bar-edge: "#a8126a"
   page-texture: {picture: images/grid-light.svg, fit: tile}
